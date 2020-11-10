@@ -1,0 +1,11 @@
+export const SEARCH_FOCUS = 'products/SEARCH_FOCUS';
+export const SEARCH_BLUR = 'products/SEARCH_BLUR';
+export const SHOW_MODAL = 'products/SHOW_MODAL';
+export const HIDDEN_MODAL = 'products/HIDDEN_MODAL';
+export const HANDLE_SUBMIT = 'products/HANDLE_SUBMIT';
+export const HANDLE_CANCEL = 'products/HANDLE_CANCEL';
+export const CHANGE_LIST = 'products/CHANGE_LIST';
+export const HANDLE_DELETE = 'products/HANDLE_DELETE';
+export const HANDLE_SEARCH = 'products/HANDLE_SEARCH';
+export const HANDLE_CHART = 'products/HANDLE_CHART';
+export const CREATE_RANDOM = 'products/CREATE_RANDOM';

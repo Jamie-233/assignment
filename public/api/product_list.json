@@ -1,0 +1,25 @@
+{
+  "status": 200,
+  "data": [{
+      "key": 1,
+      "name": "cleanser",
+      "type": "daily necessities",
+      "quantity": 22,
+      "price": "10"
+    },
+    {
+      "key": 2,
+      "name": "chocolate",
+      "type": "foodstuff",
+      "quantity": 10,
+      "price": "35"
+    },
+    {
+      "key": 3,
+      "name": "cookie",
+      "type": "foodstuff",
+      "quantity": 11,
+      "price": "16"
+    }
+  ]
+}
