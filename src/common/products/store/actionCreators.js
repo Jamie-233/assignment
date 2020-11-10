@@ -7,11 +7,6 @@ const changeList = (list) => ({
   list
 });
 
-const chartData = (data) => ({
-  type: constants.HANDLE_CHART,
-  data: fromJS(data)
-});
-
 export const serachFocus = () => ({
   type: constants.SEARCH_FOCUS
 });
@@ -55,14 +50,4 @@ export const getList = () => {
       dispatch(changeList(result));
     })
   }
-}
-
-export const getChart = () => {
-  return (dispatch) => {
-    axios.get('/api/chart.json')
-    .then(response => {
-      const result = response.data.data;
-      dispatch(chartData(result));
-    })
-  }
-}
+};

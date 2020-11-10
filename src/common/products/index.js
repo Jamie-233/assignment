@@ -25,6 +25,7 @@ const rowSelection = {
   }),
 };
 
+
 const getOption = (data, max) => ({
   title: {
     text: '',
@@ -253,7 +254,6 @@ const mapDispatchToProps = dispatch => ({
   onFinish: values => dispatch(actionCreators.onFinish()),
   handleDelete: item => dispatch(actionCreators.handleDelete(item)),
   handleSearch: event => (event.keyCode === 13) && dispatch(actionCreators.handleSearch(event.target.value)),
-  getChart: action => dispatch(actionCreators.getChart()),
   ranDom: action => dispatch(actionCreators.ranDom()),
 })
 
